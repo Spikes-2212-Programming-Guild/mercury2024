@@ -1,5 +1,6 @@
 import {Button} from "@mui/material";
 import {deleteAllCookies} from "./CookieHandler";
+import {navTo} from "./navigate";
 
 function AnswerPage() {
 
@@ -36,7 +37,8 @@ function generateLink() {
 
     window.open(encodeURI(baselink))
     deleteAllCookies()
-    window.location.href = '/'
+    // window.location.href = '/'
+    navTo('/')
 }
 
 export default AnswerPage

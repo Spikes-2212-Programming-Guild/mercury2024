@@ -15,8 +15,8 @@ function App() {
 
     let currentPage = sessionStorage.getItem('page')
 
-    const appURL = window.location.pathname.split(baseURL)[1]
-    console.log(appURL)
+    // const appURL = window.location.pathname.split(baseURL)[1]
+    // console.log(appURL)
 
     if (currentPage !== null && currentPage.startsWith('/scout')) {
         if (currentPage.split('/scout')[1] === '') {
