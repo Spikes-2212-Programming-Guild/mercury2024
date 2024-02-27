@@ -1,0 +1,47 @@
+{
+  "Parameters": [
+    {
+      "title": "Team number",
+      "type": "number",
+      "answer": null
+    },
+    {
+      "title": "Competition name",
+      "type": "selector",
+      "answer": null
+    },
+    {
+      "title": "Game number",
+      "type": "number",
+      "answer": null
+    }
+  ],
+  "Questions": [
+    {
+      "title": "Scouter name",
+      "type": "text",
+      "answer": null
+    },
+    {
+      "title": "Speaker note count",
+      "type": "number",
+      "answer": null
+    },
+    {
+      "title": "Amp note count",
+      "type": "number",
+      "answer": null
+    },
+    {
+      "title": "Climbed",
+      "type": "radio",
+      "options": [
+        "true",
+        "false",
+        "tried",
+        "SkyNet incident"
+      ],
+      "answer": null
+    }
+  ]
+}

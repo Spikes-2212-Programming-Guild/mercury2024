@@ -1,38 +1,126 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Next-button {
+    background-color: #282c34;
+    color: white;
+    font-size: large;
+    height: 45px;
+    width: 45%;
+    border: blueviolet;
+    border-radius: 5px;
+}
+
+.QuestionTitleStyle {
+    text-align: center;
+}
+
+.NumberTextBox {
+    width: 75px;
+    font-size: 30px;
+    /*font-size-adjust: inherit;*/
+    /*height: 75px;*/
+
+}
+
+
+.ScoreBox-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 25px;
+    /*background-color: green;*/
+    background-color: transparent;
+    /*color: green;*/
+}
+
+.Question-text-input {
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #282c34;
+    border-style: none;
+}
+
+.ScoreBox-box {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 15px;
+    border-color: #3C4043;
+    background-color: #5F6368;
+    color: white;
+}
+
+.horizontal-container {
+    display: flex; /* Use Flexbox for horizontal alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 1rem; /* Add space between each child component */
+    /*width: 30%;*/
+    background-image: url("/src/componentos/field.png");
+    background-size: cover;
+    /*width: 912px;*/
+    /*height: 703px;*/
+}
+
+
+.vertical-score-less {
+    color: red;
+    border-color: red;
+    font-size: large;
+    font-weight: 900;
+    background-color: #eea7a7;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.vertical-score-more {
+    color: green;
+    border-color: green;
+    font-size: large;
+    font-weight: 900;
+    background-color: #96ffc1;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
 }

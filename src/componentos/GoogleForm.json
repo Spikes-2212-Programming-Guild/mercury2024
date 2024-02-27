@@ -1,0 +1,239 @@
+{
+  "Pre-Game": [
+    {
+      "title": "Game Number",
+      "entry": 1505388104,
+      "index": 0,
+      "answer": null,
+      "type": "number"
+    },
+    {
+      "title": "Team Number",
+      "entry": 1515395388,
+      "index": 1,
+      "answer": null,
+      "type": "Number"
+    },
+    {
+      "title": "Alliance",
+      "entry": 2099634139,
+      "index": 2,
+      "answer": null,
+      "type": "radio",
+      "options": [
+        "Red",
+        "Blue"
+      ]
+    },
+    {
+      "title": "Scouter Name",
+      "entry": 951971913,
+      "index": 3,
+      "answer": null,
+      "type": "text"
+    }
+  ],
+  "Autonomous": [
+    {
+      "title": "Notes In Amp (Low Target)",
+      "entry": 150074003,
+      "index": 4,
+      "answer": null,
+      "type": "ScoreBox"
+    },
+    {
+      "title": "Notes In Speaker (High Target)",
+      "entry": 1434506275,
+      "index": 5,
+      "answer": null,
+      "type": "ScoreBox"
+    },
+    {
+      "title": " Left The Starting Zone",
+      "entry": 650672175,
+      "index": 6,
+      "answer": null,
+      "type": "radio",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    }
+  ],
+  "Teleop": [
+    {
+      "title": "Notes In Amp (Low Target)",
+      "entry": 515275918,
+      "index": 7,
+      "answer": null,
+      "type": "ScoreBox"
+    },
+    {
+      "title": "Notes In Speaker (High Target)",
+      "entry": 822125335,
+      "index": 8,
+      "answer": null,
+      "type": "ScoreBoxPro"
+    },
+    {
+      "title": "Notes In Speaker (High Target) 1",
+      "entry": 1453853429,
+      "index": 9,
+      "answer": null,
+      "type": "ScoreBoxPro"
+    },
+    {
+      "title": "Notes In Speaker (High Target) 2",
+      "entry": 1759896881,
+      "index": 10,
+      "answer": null,
+      "type": "ScoreBoxPro"
+    },
+    {
+      "title": "Notes In Speaker (High Target) 3",
+      "entry": 244655053,
+      "index": 11,
+      "answer": null,
+      "type": "ScoreBoxPro"
+    },
+    {
+      "title": "Notes In Speaker (amplified)",
+      "entry": 1938440951,
+      "index": 12,
+      "answer": null,
+      "type": "ScoreBoxPro"
+    },
+    {
+      "title": "Notes In Speaker (High Target) amplified 1",
+      "entry": 1706122343,
+      "index": 13,
+      "answer": null,
+      "type": "ScoreBoxPro"
+    },
+    {
+      "title": "Notes In Speaker (High Target) amplified 2",
+      "entry": 480364768,
+      "index": 14,
+      "answer": null,
+      "type": "ScoreBoxPro"
+    },
+    {
+      "title": "Notes In Speaker (High Target) amplified 3",
+      "entry": 511800168,
+      "index": 15,
+      "answer": null,
+      "type": "ScoreBoxPro"
+    },
+    {
+      "title": "Notes In Trap (Stage Targets)",
+      "entry": 1303579289,
+      "index": 16,
+      "answer": null,
+      "type": "ScoreBox"
+    }
+  ],
+  "Endgame": [
+    {
+      "title": "Climbing",
+      "entry": 728170901,
+      "index": 17,
+      "answer": null,
+      "type": "radio",
+      "options": [
+        "Climbed Alone (Ok)",
+        "Climbed With 1 Robot (Pretty Good)",
+        "Climbed With 2 Robots (Fucking Gigachad)",
+        "Didn't Climb (Kinda L)",
+        "Tried And Failed (Lolllllll)",
+        "Tried And Not Only Failed, But Also Ruined Alliance's Climbing (Garbage)"
+      ]
+    },
+    {
+      "title": "Climb time",
+      "entry": 1021182930,
+      "index": 18,
+      "answer": null,
+      "type": "radio",
+      "options": [
+        "less then 30s",
+        "more then 30s"
+      ]
+    },
+    {
+      "title": "Spotlight",
+      "entry": 1313003551,
+      "index": 19,
+      "answer": null,
+      "type": "radio",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    }
+  ],
+  "Post-Game": [
+    {
+      "title": "Played Defense",
+      "entry": 1878985848,
+      "index": 20,
+      "answer": null,
+      "type": "radio",
+      "options": [
+        "yes",
+        "no",
+        "sometimes"
+      ]
+    },
+    {
+      "title": "Has been defended against",
+      "entry": 911144635,
+      "index": 21,
+      "answer": null,
+      "type": "radio",
+      "options": [
+        "Yes",
+        "No",
+        "sometimes"
+      ]
+    },
+    {
+      "title": "Did the robot brake",
+      "entry": 228150452,
+      "index": 22,
+      "answer": null,
+      "type": "radio",
+      "options": [
+        "Yes",
+        "No",
+        "a bit"
+      ]
+    },
+    {
+      "title": "How did it brake",
+      "entry": 395978158,
+      "index": 23,
+      "answer": null,
+      "type": "text"
+    },
+    {
+      "title": "הפיל בייגלה? (The pretzel elephant?)",
+      "entry": 164904569,
+      "index": 24,
+      "answer": null,
+      "type": "radio",
+      "options": [
+        "לא",
+        "מתחת ל-3",
+        "המון",
+        "מלא (הכל)"
+      ]
+    },
+    {
+      "title": "Anything else?",
+      "entry": 1973993800,
+      "index": 25,
+      "answer": null,
+      "type": "text"
+    }
+  ]
+}
