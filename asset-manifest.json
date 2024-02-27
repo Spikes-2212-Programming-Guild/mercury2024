@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/mercury2024/static/css/main.ecbfe08e.css",
-    "main.js": "/mercury2024/static/js/main.d517fad8.js",
+    "main.js": "/mercury2024/static/js/main.b862cb12.js",
     "static/js/453.6b8a4108.chunk.js": "/mercury2024/static/js/453.6b8a4108.chunk.js",
     "static/media/field.png": "/mercury2024/static/media/field.4504a52c74fa6a0f8b99.png",
     "index.html": "/mercury2024/index.html",
     "main.ecbfe08e.css.map": "/mercury2024/static/css/main.ecbfe08e.css.map",
-    "main.d517fad8.js.map": "/mercury2024/static/js/main.d517fad8.js.map",
+    "main.b862cb12.js.map": "/mercury2024/static/js/main.b862cb12.js.map",
     "453.6b8a4108.chunk.js.map": "/mercury2024/static/js/453.6b8a4108.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecbfe08e.css",
-    "static/js/main.d517fad8.js"
+    "static/js/main.b862cb12.js"
   ]
 }
