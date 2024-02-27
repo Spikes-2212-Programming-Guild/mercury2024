@@ -1,4 +1,5 @@
 import {Button} from "@mui/material";
+import {navTo} from "./navigate";
 
 function UpperNav() {
     return (
@@ -15,16 +16,29 @@ function UpperNav() {
     )
 }
 
+function notFunAtAll(){
+    console.log(window.location.href)
+}
+
 function goHome() {
-    window.location.href = '/'
+    // window.location.href = '/'
+    // sessionStorage.setItem('page', '/')
+    // window.location.reload()
+    navTo('/')
 }
 
 function goScout() {
-    window.location.href = '/scout'
+    // window.location.href = '/scout'
+    // sessionStorage.setItem('page', '/scout')
+    // window.location.reload()
+    navTo('/scout')
 }
 
 function goReport() {
-    window.location.href = '/answer'
+    // window.location.href = '/answer'
+    // sessionStorage.setItem('page', '/answer')
+    // window.location.reload()
+    navTo('/answer')
 }
 
 // function goHome() {

@@ -96,7 +96,7 @@
     align-items: center; /* Center vertically */
     gap: 1rem; /* Add space between each child component */
     /*width: 30%;*/
-    background-image: url("/src/componentos/field.png");
+    background-image: url("./componentos/field.png");
     background-size: cover;
     /*width: 912px;*/
     /*height: 703px;*/

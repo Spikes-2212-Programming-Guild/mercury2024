@@ -1,4 +1,5 @@
 import {Button} from "@mui/material";
+import {navTo} from "./navigate";
 
 
 function WelcomePage() {
@@ -18,7 +19,10 @@ function WelcomePage() {
 }
 
 function openScouting(){
-    window.location.href = '/scout'
+    // window.location.href = '/scout'
+    // sessionStorage.setItem('page', '/scout')
+    // window.location.reload()
+    navTo('/scout')
 }
 
 function StartButton() {

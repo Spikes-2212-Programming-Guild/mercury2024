@@ -1,4 +1,5 @@
 import {Button} from "@mui/material";
+import {navTo} from "./navigate";
 
 function Navbarilan() {
     return (
@@ -18,27 +19,33 @@ function Navbarilan() {
 }
 
 function goHome() {
-    window.location.href = '/'
+    // window.location.href = '/'
+    navTo('/')
 }
 
 function goAutonomous() {
-    window.location.href = '/scoutAutonomous'
+    // window.location.href = '/scoutAutonomous'
+    navTo('/scoutAutonomous')
 }
 
 function goPreGame() {
-    window.location.href = '/scoutPre-Game'
+    // window.location.href = '/scoutPre-Game'
+    navTo('/scoutPre-Game')
 }
 
 function goTeleop() {
-    window.location.href = '/scoutTeleop'
+    // window.location.href = '/scoutTeleop'
+    navTo('/scoutTeleop')
 }
 
 function goEndgame() {
-    window.location.href = '/scoutEndgame'
+    // window.location.href = '/scoutEndgame'
+    navTo('/scoutEndgame')
 }
 
 function goPostGame() {
-    window.location.href = '/scoutPost-Game'
+    // window.location.href = '/scoutPost-Game'
+    navTo('/scoutPost-Game')
 }
 
 // function goHome() {

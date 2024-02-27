@@ -5,20 +5,27 @@ import AnswerPage from "./componentos/AnswerPage";
 import UpperNav from "./componentos/UpperNav";
 
 
+const baseURL = '/mercury2024'
+
 function App() {
 
-    console.log(document.cookie)
+    // console.log(document.cookie)
 
     let page
 
-    if (window.location.pathname.startsWith('/scout')) {
-        if (window.location.pathname.split('/scout')[1] === '') {
+    let currentPage = sessionStorage.getItem('page')
+
+    const appURL = window.location.pathname.split(baseURL)[1]
+    console.log(appURL)
+
+    if (currentPage !== null && currentPage.startsWith('/scout')) {
+        if (currentPage.split('/scout')[1] === '') {
             page = <ScoutingPage pageName="Pre-Game"/>
         } else {
-            page = <ScoutingPage pageName={window.location.pathname.split('/scout')[1]}/>
+            page = <ScoutingPage pageName={currentPage.split('/scout')[1]}/>
         }
 
-    } else if (window.location.pathname === '/answer') {
+    } else if (currentPage === '/answer') {
         page = <AnswerPage/>
     } else {
         page = <WelcomePage/>
