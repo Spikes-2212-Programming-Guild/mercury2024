@@ -5,7 +5,7 @@ import AnswerPage from "./componentos/AnswerPage";
 import UpperNav from "./componentos/UpperNav";
 
 
-const baseURL = '/mercury2024'
+// const baseURL = '/mercury2024'
 
 function App() {
 
