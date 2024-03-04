@@ -7,9 +7,17 @@ function AnswerPage() {
     // console.log(generateLink())
     return (
         <header className="App">
-            <h2>Save data</h2>
-            <Button onClick={sendData} style={{color: "green"}}>send data</Button>
-            <Button onClick={saveData}>save data</Button>
+            <h1>Answer</h1>
+            <br/>
+            <div>
+                <button onClick={sendData} className="send-data">Send Data</button>
+
+                &nbsp;
+                &nbsp;
+                &nbsp;
+
+                <button onClick={saveData} className="save-data">Save Data</button>
+            </div>
         </header>
     )
 }

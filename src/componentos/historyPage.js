@@ -26,7 +26,7 @@ function HistoryPage() {
 
     return (
         <>
-            <h2>past links</h2>
+            <h2>History</h2>
             {things.map((thing) => (
                 <LinkButton formLink={thing[0]} key={thing[1]} index={thing[1]} name={thing[2]}></LinkButton>
             ))}

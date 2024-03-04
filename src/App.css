@@ -124,3 +124,19 @@
     height: 50px;
     border-radius: 25px;
 }
+
+.send-data {
+    color: green;
+    border-color: green;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 27px;
+}
+
+.save-data {
+    color: blueviolet;
+    border-color: blueviolet;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 27px;
+}
