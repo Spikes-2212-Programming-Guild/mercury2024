@@ -3,6 +3,7 @@ import WelcomePage from "./componentos/welcome";
 import ScoutingPage from "./componentos/Form";
 import AnswerPage from "./componentos/AnswerPage";
 import UpperNav from "./componentos/UpperNav";
+import HistoryPage from "./componentos/historyPage";
 
 
 // const baseURL = '/mercury2024'
@@ -27,6 +28,8 @@ function App() {
 
     } else if (currentPage === '/answer') {
         page = <AnswerPage/>
+    } else if (currentPage === '/history') {
+        page = <HistoryPage/>
     } else {
         page = <WelcomePage/>
         return (

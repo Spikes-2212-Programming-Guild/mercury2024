@@ -9,6 +9,7 @@ function UpperNav() {
                 <Button onClick={goHome}>Home</Button>
                 <Button onClick={goScout}>Scouting</Button>
                 <Button onClick={goReport}>Answer</Button>
+                <Button onClick={goFuckYourselfZuck}>History</Button>
 
             </div>
         </>
@@ -39,6 +40,13 @@ function goReport() {
     // sessionStorage.setItem('page', '/answer')
     // window.location.reload()
     navTo('/answer')
+}
+
+function goFuckYourselfZuck() {
+    // window.location.href = '/answer'
+    // sessionStorage.setItem('page', '/answer')
+    // window.location.reload()
+    navTo('/history')
 }
 
 // function goHome() {

@@ -28,7 +28,7 @@ function TextBox(properties) {
     return (
         <header>
             <QuestionTitle title={properties.title}/>
-            <Input style={{color: "white"}} type="text" value={Value} onChange={event => setValue(event.target.value)}></Input>
+            <Input style={{color: "white", width: "350px"}} type="text" value={Value} onChange={event => setValue(event.target.value)}></Input>
             {/*{inpt}*/}
         </header>
     )
